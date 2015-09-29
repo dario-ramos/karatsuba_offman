@@ -1,0 +1,2 @@
+RESULTADO - CIFRAS - TIEMPO (en milisegundos) - OP
+808261536  n: 5  T(n): 160 Op: *

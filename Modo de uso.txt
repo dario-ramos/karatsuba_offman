@@ -1,0 +1,22 @@
+   Para compilar, basta tipear ant tdatp1 (en la línea de comandos, parado en el directorio
+donde están los archivos fuente):
+	ant 
+
+   Para ejecutar el programa, ha de tipearse: 
+	java tdatp1 nomArch1 nomArch2
+
+   ...donde nomArch1 representa el nombre del archivo de entrada, desde el cual se leerán las
+operaciones a ejecutar y nomArch2 representa  el archivo de salida, en el cual se muestran
+la cantidad de cifras y el tiemp insumido por cada operación.
+   En caso de que no exista el archivo nomArch1, el programa procederá a crear uno de pruebas.
+Las operaciones de dicho archivo pueden editarse fácilmente del siguiente modo: En la clase 
+tdatp1, ir al método generarEntrada. En el mismo, se llama varias veces al método meterTodo,
+el cual genera líneas de cálculos para una operación "op" dada. Entonces, se debe cambiar el
+método generarEntrada para que cree cálculos para las operaciones deseadas.
+   A continuación, ir al método meterTodo (también de la clase tdatp1) y modificar los valores
+del for principal. El mismo genera pares aleatorios denúmeros desde cierta cantidad de cifras
+hasta otra, con un cierto paso (default: desde 5 a 5o cifras, con un paso de 5). Eso es todo.
+
+IMPORTANTE: Si en el archivo de entrada el segundo operando es negativo, debe haber sólo
+un espacio entre el signo menos y el operador. 
+
